@@ -7,5 +7,12 @@
 ## Branch
 
 - main just react + tailwind
-- daisy is react tailwind + daisy ui
-- mui react + mui +tailwind
+- antD: [Ant Design](https://ant.design/components/overview/)
+- chakra: [Chakra](https://v2.chakra-ui.com/docs/components)
+- daisy: [Daisy UI](https://daisyui.com/components/)
+- mui: [Material UI](https://mui.com/material-ui/all-components/)
+
+### When changing branches
+
+- Use `npm prune` to remove packages installed without specifying dependencies.
+- Use `npm install` for install dependencies again
